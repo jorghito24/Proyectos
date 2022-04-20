@@ -197,7 +197,6 @@ nav ul li ul li a:hover{
 }
 
 /**formulario**/
-
 .formulario {
     background-color: var(--gris);
     width: min(60rem, 100%);

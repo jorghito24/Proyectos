@@ -7,8 +7,17 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
 }
+
+:root {
+    --blanco: #ffffff;
+    --primario: rgb(186, 211, 211);
+    --negro: #000;
+    --secundario: #9fe3e6;
+    --gris: #757575;
+}
+
 body{
-    background-image: url(img/patitas.jpg);
+    background-color: #ffffff);
 }
 
 header{
@@ -198,7 +207,7 @@ nav ul li ul li a:hover{
 /**carrusel**/
 
 .dog {
-   /* background-image: url(../Proyectos/img/Gatos.jpg);*/
+   background-image: url(../Proyectos/img/patitas.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -211,9 +220,9 @@ nav ul li ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 150px;
+    margin-top: auto;
     
-    padding: 100px;
+    padding: 45px;
 }
 
 h2 {

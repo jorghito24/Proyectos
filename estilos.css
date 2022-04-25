@@ -31,6 +31,16 @@ body{
     padding: 20px;
 }
 
+footer{
+    background-color: var(--gris);
+    text-align:center;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    margin-top: 80px;
+    text-decoration: none;
+    float: right;
+  }
+
 .logo img{
     width: 250px;
 }
@@ -231,6 +241,29 @@ legend {
 
 /**formulario**/
 
+input[type="text"], input[type="email"], textarea {
+	background-color: #bcbec0;
+	border: 1px solid #000407;
+	color: #0a0707;
+	display:inline-flex;
+	padding: 10px;
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 1%;
+}
+input[name="name"] {
+	background-color: #01070e;
+	width: 100%;
+}
+input[name="email"] {
+	background-color: #05090c;
+	width: 60%;
+}
+input[name="phone"] {
+	background-color: #030405;
+	width: 60%;
+}
+
 .formulario {
     background-color: var(--gris);
     width: min(60rem, 100%);
@@ -398,3 +431,10 @@ legend {
 	cursor: pointer;
 	transition: .1s ease all;
 }
+
+.RedesSociales{
+    display: block;
+    position: center;
+    font-size: 100px;
+    padding: 100%;
+    }

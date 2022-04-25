@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: #ffffff;
+    background-color:var(--secundario);
 }
 
 /*header superior*/
@@ -205,6 +205,7 @@ nav ul li ul li a:hover{
    background-repeat: no-repeat;
    background-size: cover;
 }
+
 .contenido-dog {
     background-color: rgba(0, 0, 0, .8);
 }
@@ -216,7 +217,7 @@ nav ul li ul li a:hover{
     margin-bottom: auto;
     margin-top: auto;
     height: 350px !important;
-    width: 450px !important;
+    width: 600px !important;
     padding: 45px;
 }
 

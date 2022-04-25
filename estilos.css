@@ -21,14 +21,6 @@ body{
     background-color: #ffffff;
 }
 
-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: white;
-    background-image: url(img/patitas.jpg);
-}
 /*header superior*/
 .header__superior{
     max-width: 1200px;
@@ -38,6 +30,7 @@ header{
     align-items: center;
     padding: 20px;
 }
+
 .logo img{
     width: 80px;
 }

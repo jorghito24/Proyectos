@@ -25,7 +25,7 @@
         
     </head>
     <body>
-        <header>
+        
             <div class="header__superior">
                 <div class="logo">
                     <img src="img/Logo.jpg" alt="">
@@ -77,7 +77,49 @@
                 </div>
     
             </div>
-        </header>
+         <!-- FORMULARIO -->
+         <main>
+            <nav>
+                <h2>Suscríbete a nuestra pagina</h2>
+            </nav>
+            <Form name="formulario" class="formulario">
+    
+                <fieldset>
+                    <legend>Mantente siempre informado</legend>
+    
+                    <div class="Contenedor_campos">
+                        <div class="campos">
+                            <label>Nombre </label>
+                            <input name="nombre" type="text" placeholder="Tu nombre" required />
+                            <div class="validacion hide">Porfavor, ingrese un nombre</div>
+                        </div>
+                        <div class="campos">
+                            <label>Teléfono </label>
+                            <input name="telefono" type="number" placeholder="Tu teléfono " required />
+                            <div class="validacion hide">Ingrese un número valido</div>
+                        </div>
+                        <div class="campos">
+                            <label>Correo </label>
+                            <input name="correo" type="email" placeholder="Tu Email" required>
+                            <div class="validacion hide">Ingrese un email valido</div>
+                        </div>
+                        <div class="campos">
+                            <label>Mensaje </label>
+                            <textarea name="mensaje" id="mensaje" cols="65" rows="10" placeholder="Dejanos tu mensaje!"></textarea>
+                        </div>
+                        <button class="boton" type="submit" value="Enviar ">Enviar</button>
+                    </div>
+    
+                </fieldset>
+    
+    
+            </Form>
+            <footer>
+    
+    
+            </footer>
+    
+        </main>
 
         
     </body>

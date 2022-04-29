@@ -444,4 +444,40 @@ input[name="phone"] {
     position: center;
     font-size: 100px;
     padding: 100%;
+    background-color: white;
     }
+
+/*Productos*/
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+    
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.u-full-width {
+    width: 200px;
+    box-sizing: border-box; }
+  .u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; }
+  .u-pull-right {
+    float: right; }
+  .u-pull-left {
+    float: left; }

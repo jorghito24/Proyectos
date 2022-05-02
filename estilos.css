@@ -10,7 +10,7 @@
 
 :root {
     --blanco: #ffffff;
-    --primario:rgb(240, 84, 84);
+    --primario:rgb(133, 54, 54);
     --negro: #000;
     --secundario: rgb(48, 71, 94);
     --terceareo: rgb(247, 151, 151);
@@ -32,7 +32,7 @@ body{
 }
 
 footer{
-    background-color: var(--gris);
+    background-color: var(--primario);
     text-align:center;
     width: 100%;
     font-family: 'Lobster', cursive;
@@ -430,21 +430,21 @@ input[name="phone"] {
 	height: 100%;
 	line-height: 100%;
 	width: 100%;
-	background: #000;
-	color: #fff;
+	background: var(--negro);
+	color: var(--blanco);
 	font-weight: bold;
 	border: none;
 	border-radius: 3px;
 	cursor: pointer;
 	transition: .1s ease all;
 }
-
+@media (min-width: 550px) {
 .RedesSociales{
     display: block;
     position: center;
     font-size: 100px;
     padding: 100%;
-    background-color: white;
+    background-color: var(--blanco);
     }
 
 /*Productos*/
@@ -455,16 +455,18 @@ input[name="phone"] {
 .card {
     text-align: center;
     box-shadow: 0 10px 50px 0 rgb(0 0 0 / 3%);
-    
+    background: var(--gris);
+    height: 95%;
 }
 @media (min-width: 550px) {
     .card {
         text-align: left;
     }
 }
+
 .info-card {
     padding: 30px 20px;
-    color: white;
+    color: var(--blanco);
 }
 
 .info-card .precio span {
@@ -482,7 +484,10 @@ input[name="phone"] {
   .u-pull-left {
     float: left; }
 .encabezado{
-    color: white;
+    color: var(--blanco);
 }  
 
+#cards {
+    width: 100%;
 
+}

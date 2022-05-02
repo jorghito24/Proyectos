@@ -445,8 +445,12 @@ input[name="phone"] {
     font-size: 100px;
     padding: 100%;
     background-color: var(--blanco);
+    color: var(--blanco);
     }
 
+h4 {
+    color: var(--blanco);
+} 
 /*Productos*/
 .info-card p,
 .card h4 {

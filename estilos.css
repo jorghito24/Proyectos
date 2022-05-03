@@ -567,7 +567,7 @@ text-align: center;
 .card .face {
 position: absolute;
 width: 300px;
-height: 300px;
+height: 450px;
 backface-visibility: hidden;
 border-radius: 10px;
 overflow: hidden;
@@ -598,3 +598,40 @@ transition: 1.5s;
     font-size: 16px;
     }
 
+/*Calificacion*/
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 30px;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }

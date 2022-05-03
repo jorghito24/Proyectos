@@ -540,6 +540,16 @@ h4 {
 }
 }
 */
+.u-full-width {
+    width: 200px;
+    box-sizing: border-box; }
+  .u-max-full-width {
+    max-width: 200px;
+    box-sizing: border-box; }
+  .u-pull-right {
+    float: right; }
+  .u-pull-left {
+    float: left; }
 
 .encabezado{
     color: var(--blanco);
@@ -554,7 +564,6 @@ body .card {
     flex-wrap: wrap;
 }
 
-
 .card {
 position: relative;
 width: 280px;
@@ -565,13 +574,18 @@ text-align: center;
 }
 
 .card .face {
+background-color: var(--primario);
 position: absolute;
 width: 300px;
-height: 450px;
+height: 470px;
 backface-visibility: hidden;
 border-radius: 10px;
 overflow: hidden;
 transition: 1.5s;
+}
+
+strong {
+    color: var(--negro)
 }
 
 .card .front {
@@ -587,7 +601,7 @@ transition: 1.5s;
     }
 
     .card .front h3 {
-    position: absolute;
+    position:relative;
     bottom: 0;
     width: 300px;
     height: 45px;
@@ -624,7 +638,7 @@ transition: 1.5s;
   .clasificacion {
     direction: rtl;
     unicode-bidi: bidi-override;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   label:hover,

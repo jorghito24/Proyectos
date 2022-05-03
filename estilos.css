@@ -488,6 +488,7 @@ input[name="phone"] {
     background-color: var(--blanco);
     color: var(--blanco);
 }
+}
 
 h4 {
     color: var(--blanco);
@@ -596,4 +597,3 @@ transition: 1.5s;
     text-align: center;
     font-size: 16px;
     }
-}

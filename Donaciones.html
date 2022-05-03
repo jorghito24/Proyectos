@@ -73,38 +73,7 @@
         </div>
     </header>
 
-    <form action="https://formspree.io/f/xyyobvza" method="POST">
-        <label>
-            Your email:
-            <input type="email" name="email">
-        </label>
-        <label>
-            Your message:
-            <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-    </form>
-
-    <script>  
-        const $form = document.querySelector('#form')
-        $form.addEventListener('submit', handleSubmit)
-          async function handleSubmit(event){
-                event.preventdefault()
-                const form = new FormData(this)
-                fetch(this.action, {
-                   method: this.method,
-                   body: form,
-                   headers:{
-                    'Accept': 'application/json'
-                }
-            })
-            if (Response.ok){
-                this.reset()
-                alert('Gracias por contarcarnos, te escribiremos pronto')
-            }
-        }
-        </script>
+   
 </body>
 
 </html>

@@ -71,6 +71,16 @@ button {
     padding: 0px 20px;
 }
 
+.container{
+    background-color:var(--gris);
+	max-width: 900px;
+	width: 90%;
+	margin: auto;
+	padding: 30px;
+	position: center;
+    border-radius: 40px;
+}
+
 .menu {
     max-width: 1200px;
     margin: auto;
@@ -286,7 +296,7 @@ legend {
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: #bcbec0;
+    background-color: #ffffff;
     border: 1px solid #000407;
     color: #0a0707;
     display: inline-flex;
@@ -297,12 +307,12 @@ textarea {
 }
 
 input[name="name"] {
-    background-color: #01070e;
+    background-color: #ffffff;
     width: 100%;
 }
 
 input[name="email"] {
-    background-color: #05090c;
+    background-color: #ffffff;
     width: 60%;
 }
 
@@ -336,7 +346,7 @@ input[name="phone"] {
 
 .formulario__input {
     width: 100%;
-    background: #fff;
+    background: rgb(248, 247, 247);
     border: 3px solid transparent;
     border-radius: 3px;
     height: 45px;
@@ -348,13 +358,14 @@ input[name="phone"] {
 .formulario__input:focus {
     border: 3px solid #0075FF;
     outline: none;
-    box-shadow: 3px 0px 30px #a3a3a366;
+    box-shadow: 3px 0px 30px #00000066;
 }
 
 .formulario__input-error {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0;
     display: none;
+    color: #000;
 }
 
 .formulario__input-error-activo {
@@ -412,7 +423,7 @@ input[name="phone"] {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
-    border-radius: 3px;
+    border-radius: 9px;
     cursor: pointer;
     transition: .1s ease all;
     font-size: 20px;
@@ -474,7 +485,7 @@ input[name="phone"] {
     color: var(--blanco);
     font-weight: bold;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
     transition: .1s ease all;
 }
@@ -494,52 +505,6 @@ h4 {
     color: var(--blanco);
 }
 
-    /*Productos*/
-    /*
-.info-card p,
-.card h4 {
-    margin-bottom: 9px;
-}
-.card {
-    text-align: center;
-    box-shadow: 0 10px 50px 0 rgb(0 0 0 / 3%);
-    background: var(--gris);
-    height: 95%;
-}
-@media (min-width: 550px) {
-    .card {
-        text-align: left;
-    }
-}
-
-.info-card {
-    padding: 30px 20px;
-    color: var(--blanco);
-}
-
-.info-card .precio span {
-    font-weight: 700px;
-    font-size: 22px;
-}
-.u-full-width {
-    width: 200px;
-    box-sizing: border-box; }
-  .u-max-full-width {
-    max-width: 200px;
-    box-sizing: border-box; }
-  .u-pull-right {
-    float: right; }
-  .u-pull-left {
-    float: left; }
-
-
-#cards {
-    width: 100%;
-    
-
-}
-}
-*/
 .u-full-width {
     width: 200px;
     box-sizing: border-box; }
@@ -632,20 +597,11 @@ strong {
   }
   
   label {
-    color: grey;
+    color: #050505
   }
   
   .clasificacion {
     direction: rtl;
     unicode-bidi: bidi-override;
     font-size: 20px;
-  }
-  
-  label:hover,
-  label:hover ~ label {
-    color: orange;
-  }
-  
-  input[type="radio"]:checked ~ label {
-    color: orange;
   }

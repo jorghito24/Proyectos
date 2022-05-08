@@ -81,6 +81,10 @@ button {
     border-radius: 40px;
 }
 
+.container2{
+    padding: 40px 250px;
+}
+
 .menu {
     max-width: 1200px;
     margin: auto;
